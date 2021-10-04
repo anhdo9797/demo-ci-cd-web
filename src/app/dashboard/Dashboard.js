@@ -399,8 +399,10 @@ export class Dashboard extends Component {
                         </td>
                         <td>
                           <div className="d-flex">
-                            <img src={require('../../assets/images/faces/face1.jpg')} alt="face" />
-                            <span className="pl-2">Henry Klein</span>
+                            <button>
+                              <img src={require('../../assets/images/faces/tenomad.jpg')} alt="face" />
+                              <span className="pl-2">Tenomad</span>
+                            </button>
                           </div>
                         </td>
                         <td> 02312 </td>

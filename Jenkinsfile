@@ -5,7 +5,7 @@ pipeline {
     environment {
         ///
         //login firebase: sudo firebase login:ci --no-localhost --debug
-        FIREBASE_TOKEN = "4/1AX4XfWiwUEho6lTGvuMSxPX7hq0wOJBSPQ-oW5rByVz-zQtzspbZ-TuRy9Q"
+        FIREBASE_TOKEN = "<Token>"
     }
     
     stages {

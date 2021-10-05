@@ -17,13 +17,13 @@ jobs:
         with:
           node-version: '12'
 
-      - name: Install depenencis and build
+      - name: Install dependencies and build
         run: |
           npm install
           npm run build
       
       - name: Deploy to Firebase
-        # uses: w9jds/firebase-action@master #or docker://w9jds/firebase-action:latest
+        # uses: w9jds/firebase-action@master 
         uses: docker://w9jds/firebase-action:latest
         with:
           args: deploy --only hosting
